@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Weather application</h1>
+        <div class="search-box">
+            <input type="text" id="search-box" class="search" placeholder="Enter city name" autocomplete="off">
+        </div>
+
+        <div class="weather-body">
+            <p class="city text-style" id="city"></p>
+            <p class="time text-style" id="time"></p>
+            <h1 class="temp"><span id="temperature"></span> &deg;C</h1>
+            <p class="min-max text-style"><span id="min-temp"></span>&deg;C (min) / <span id="max-temp"></span>&deg;C (max)</p>
+            <p class="weather text-style" id="weather"></p>
+            <div class="img"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

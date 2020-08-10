@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/sunny.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title{
+    margin-top: 1rem;
+    color: #684f27;
+}
+.search-box{
+    padding: 2rem 0;
+    background-color: rgba(255, 245, 254, .5);
+    height: 100px;
+    margin: 3rem 0;
+    border-radius: 3px;
+}
+.search-box input{
+    border: none;
+    padding: .75rem .5rem;
+    width: 80%;
+    background-color: rgba(255, 245, 254, .5);
+    font-size: 1rem;
+    border-radius: 2px;
+    color: #333;
+    text-align: center;
+
+}
+
+::-webkit-input-placeholder{
+    font-size: 1rem;
+    
+}
+
+.search-box input:focus{
+    outline: none;
+}
+
+.text-style{
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem 0;
+
+}
+.temp{
+    font-size: 3rem;
+    color: #d48e1e;
+}
+.weather-body{
+    background-color: rgba(255, 245, 254, .7);
+    padding: 4rem 0;
+    border-radius: 3px;
+    display: none;
+}
